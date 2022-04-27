@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description>Header Configuration</description>
+        <name>chrome_header</name>
+        <page display_value="Parental Leave">97382b66a6834110f06b1745539d7b1d</page>
+        <required_translations>[ {
+  "message" : "Configure workspace",
+  "comment" : ""
+}, {
+  "message" : "Display Preferences",
+  "comment" : ""
+}, {
+  "message" : "Notifications",
+  "comment" : ""
+}, {
+  "message" : "Settings",
+  "comment" : ""
+}, {
+  "message" : "Show Badge Count",
+  "comment" : ""
+}, {
+  "message" : "Show Banners",
+  "comment" : ""
+}, {
+  "message" : "Show ribbon",
+  "comment" : ""
+}, {
+  "message" : "Show sidebar",
+  "comment" : ""
+}, {
+  "message" : "UserMenu",
+  "comment" : ""
+}, {
+  "message" : "Wrap list text",
+  "comment" : ""
+} ]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-27 10:10:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>df382b662e83411095f17a1202ba481a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="Parental Leave" source="x_485912_parenta_0">259da3921b430110599142e4cc4bcbae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parental Leave">259da3921b430110599142e4cc4bcbae</sys_scope>
+        <sys_update_name>sys_ux_page_property_df382b662e83411095f17a1202ba481a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-27 10:11:01</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_485912_parenta_0.97382b66a6834110f06b1745539d7b1d.root.chrome_header</unique_name>
+        <value>{&#13;
+    "privatePage": {&#13;
+        "notificationsEnabled": true,&#13;
+        "searchEnabled": true,&#13;
+        "userPrefsEnabled": true,&#13;
+        "contextualConfigurationItems": {&#13;
+            "_roles": [&#13;
+                "workspace_admin"&#13;
+            ],&#13;
+            "enabled": true,&#13;
+            "position": 150&#13;
+        },&#13;
+        "globalTools": {&#13;
+            "collapsingMenuId": 0,&#13;
+            "primaryItems": [{&#13;
+                "label": "UserMenu",&#13;
+                "icon": "user",&#13;
+                "type": "menu",&#13;
+                "primaryDisplay": "icon",&#13;
+                "value": {&#13;
+                    "children": [{&#13;
+                            "_roles": [&#13;
+                                "workspace_admin"&#13;
+                            ],&#13;
+                            "label": {&#13;
+                                "message": "Configure workspace",&#13;
+                                "translatable": true&#13;
+                            },&#13;
+                            "type": "navigation",&#13;
+                            "position": 100,&#13;
+                            "primaryDisplay": "none",&#13;
+                            "value": {&#13;
+                                "type": "external",&#13;
+                                "opensWindow": "true",&#13;
+                                "value": {&#13;
+                                    "href": "/nav_to.do?uri=/sys_ux_app_config.do?sys_id=57382b66358341109bceefb6ad7e3a1d"&#13;
+                                }&#13;
+                            }&#13;
+                        },&#13;
+                        {&#13;
+                            "label": {&#13;
+                                "message": "Settings",&#13;
+                                "translatable": true&#13;
+                            },&#13;
+                            "type": "menu",&#13;
+                            "position": 50,&#13;
+                            "value": {&#13;
+                                "children": [{&#13;
+                                        "label": {&#13;
+                                            "message": "Display Preferences",&#13;
+                                            "translatable": true&#13;
+                                        },&#13;
+                                        "type": "divider"&#13;
+                                    },&#13;
+                                    {&#13;
+                                        "label": {&#13;
+                                            "message": "Show ribbon",&#13;
+                                            "translatable": true&#13;
+                                        },&#13;
+                                        "type": "toggle",&#13;
+                                        "value": {&#13;
+                                            "_meta": {&#13;
+                                                "_type": "userPreferences",&#13;
+                                                "_path": "userPrefName",&#13;
+                                                "_value": {&#13;
+                                                    "userPrefName": "workspace.showRibbon"&#13;
+                                                },&#13;
+                                                "_default": {&#13;
+                                                    "userPrefName": "true"&#13;
+                                                }&#13;
+                                            }&#13;
+                                        }&#13;
+                                    },&#13;
+                                    {&#13;
+                                        "label": {&#13;
+                                            "message": "Show sidebar",&#13;
+                                            "translatable": true&#13;
+                                        },&#13;
+                                        "type": "toggle",&#13;
+                                        "value": {&#13;
+                                            "_meta": {&#13;
+                                                "_type": "userPreferences",&#13;
+                                                "_path": "userPrefName",&#13;
+                                                "_value": {&#13;
+                                                    "userPrefName": "workspace.showAgentAssist"&#13;
+                                                },&#13;
+                                                "_default": {&#13;
+                                                    "userPrefName": "true"&#13;
+                                                }&#13;
+                                            }&#13;
+                                        }&#13;
+                                    },&#13;
+                                    {&#13;
+                                        "label": {&#13;
+                                            "message": "Wrap list text",&#13;
+                                            "translatable": true&#13;
+                                        },&#13;
+                                        "type": "toggle",&#13;
+                                        "value": {&#13;
+                                            "_meta": {&#13;
+                                                "_type": "userPreferences",&#13;
+                                                "_path": "userPrefName",&#13;
+                                                "_value": {&#13;
+                                                    "userPrefName": "workspace.wrapListText"&#13;
+                                                },&#13;
+                                                "_default": {&#13;
+                                                    "userPrefName": "true"&#13;
+                                                }&#13;
+                                            }&#13;
+                                        }&#13;
+                                    },&#13;
+                                    {&#13;
+                                        "label": {&#13;
+                                            "message": "Notifications",&#13;
+                                            "translatable": true&#13;
+                                        },&#13;
+                                        "type": "divider"&#13;
+                                    },&#13;
+                                    {&#13;
+                                        "label": {&#13;
+                                            "message": "Show Banners",&#13;
+                                            "translatable": true&#13;
+                                        },&#13;
+                                        "type": "toggle",&#13;
+                                        "value": {&#13;
+                                            "_meta": {&#13;
+                                                "_type": "userPreferences",&#13;
+                                                "_path": "userPrefName",&#13;
+                                                "_value": {&#13;
+                                                    "userPrefName": "workspace.notifications.showPopups"&#13;
+                                                },&#13;
+                                                "_default": {&#13;
+                                                    "userPrefName": "true"&#13;
+                                                }&#13;
+                                            }&#13;
+                                        }&#13;
+                                    },&#13;
+                                    {&#13;
+                                        "label": {&#13;
+                                            "message": "Show Badge Count",&#13;
+                                            "translatable": true&#13;
+                                        },&#13;
+                                        "type": "toggle",&#13;
+                                        "value": {&#13;
+                                            "_meta": {&#13;
+                                                "_type": "userPreferences",&#13;
+                                                "_path": "userPrefName",&#13;
+                                                "_value": {&#13;
+                                                    "userPrefName": "workspace.notifications.showBadgeCount"&#13;
+                                                },&#13;
+                                                "_default": {&#13;
+                                                    "userPrefName": "true"&#13;
+                                                }&#13;
+                                            }&#13;
+                                        }&#13;
+                                    }&#13;
+                                ]&#13;
+                            }&#13;
+                        }&#13;
+                    ]&#13;
+                }&#13;
+            }],&#13;
+            "secondaryItems": [&#13;
+&#13;
+            ]&#13;
+        }&#13;
+    },&#13;
+    "publicPage": {&#13;
+        "actionButtons": [&#13;
+&#13;
+        ]&#13;
+    }&#13;
+}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="DELETE" query="documentkey=df382b662e83411095f17a1202ba481a"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Parental Leave">259da3921b430110599142e4cc4bcbae</application>
+        <file_path/>
+        <instance_id>3c2a0119dbd753404f035d00cf9619ac</instance_id>
+        <instance_name>dev64591</instance_name>
+        <name>sys_ux_page_property_df382b662e83411095f17a1202ba481a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description>Header Configuration</description><name>chrome_header</name><page display_value="Parental Leave">97382b66a6834110f06b1745539d7b1d</page><required_translations>[ {
+  "message" : "Configure workspace",
+  "comment" : ""
+}, {
+  "message" : "Display Preferences",
+  "comment" : ""
+}, {
+  "message" : "Notifications",
+  "comment" : ""
+}, {
+  "message" : "Settings",
+  "comment" : ""
+}, {
+  "message" : "Show Badge Count",
+  "comment" : ""
+}, {
+  "message" : "Show Banners",
+  "comment" : ""
+}, {
+  "message" : "Show ribbon",
+  "comment" : ""
+}, {
+  "message" : "Show sidebar",
+  "comment" : ""
+}, {
+  "message" : "UserMenu",
+  "comment" : ""
+}, {
+  "message" : "Wrap list text",
+  "comment" : ""
+} ]</required_translations><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-27 10:10:56</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>df382b662e83411095f17a1202ba481a</sys_id><sys_mod_count>1</sys_mod_count><sys_name>chrome_header</sys_name><sys_package display_value="Parental Leave" source="x_485912_parenta_0">259da3921b430110599142e4cc4bcbae</sys_package><sys_policy/><sys_scope display_value="Parental Leave">259da3921b430110599142e4cc4bcbae</sys_scope><sys_update_name>sys_ux_page_property_df382b662e83411095f17a1202ba481a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-27 10:11:01</sys_updated_on><type>json</type><unique_name>x_485912_parenta_0.97382b66a6834110f06b1745539d7b1d.root.chrome_header</unique_name><value>{&#13;
+    "privatePage": {&#13;
+        "notificationsEnabled": true,&#13;
+        "searchEnabled": true,&#13;
+        "userPrefsEnabled": true,&#13;
+        "contextualConfigurationItems": {&#13;
+            "_roles": [&#13;
+                "workspace_admin"&#13;
+            ],&#13;
+            "enabled": true,&#13;
+            "position": 150&#13;
+        },&#13;
+        "globalTools": {&#13;
+            "collapsingMenuId": 0,&#13;
+            "primaryItems": [{&#13;
+                "label": "UserMenu",&#13;
+                "icon": "user",&#13;
+                "type": "menu",&#13;
+                "primaryDisplay": "icon",&#13;
+                "value": {&#13;
+                    "children": [{&#13;
+                            "_roles": [&#13;
+                                "workspace_admin"&#13;
+                            ],&#13;
+                            "label": {&#13;
+                                "message": "Configure workspace",&#13;
+                                "translatable": true&#13;
+                            },&#13;
+                            "type": "navigation",&#13;
+                            "position": 100,&#13;
+                            "primaryDisplay": "none",&#13;
+                            "value": {&#13;
+                                "type": "external",&#13;
+                                "opensWindow": "true",&#13;
+                                "value": {&#13;
+                                    "href": "/nav_to.do?uri=/sys_ux_app_config.do?sys_id=57382b66358341109bceefb6ad7e3a1d"&#13;
+                                }&#13;
+                            }&#13;
+                        },&#13;
+                        {&#13;
+                            "label": {&#13;
+                                "message": "Settings",&#13;
+                                "translatable": true&#13;
+                            },&#13;
+                            "type": "menu",&#13;
+                            "position": 50,&#13;
+                            "value": {&#13;
+                                "children": [{&#13;
+                                        "label": {&#13;
+                                            "message": "Display Preferences",&#13;
+                                            "translatable": true&#13;
+                                        },&#13;
+                                        "type": "divider"&#13;
+                                    },&#13;
+                                    {&#13;
+                                        "label": {&#13;
+                                            "message": "Show ribbon",&#13;
+                                            "translatable": true&#13;
+                                        },&#13;
+                                        "type": "toggle",&#13;
+                                        "value": {&#13;
+                                            "_meta": {&#13;
+                                                "_type": "userPreferences",&#13;
+                                                "_path": "userPrefName",&#13;
+                                                "_value": {&#13;
+                                                    "userPrefName": "workspace.showRibbon"&#13;
+                                                },&#13;
+                                                "_default": {&#13;
+                                                    "userPrefName": "true"&#13;
+                                                }&#13;
+                                            }&#13;
+                                        }&#13;
+                                    },&#13;
+                                    {&#13;
+                                        "label": {&#13;
+                                            "message": "Show sidebar",&#13;
+                                            "translatable": true&#13;
+                                        },&#13;
+                                        "type": "toggle",&#13;
+                                        "value": {&#13;
+                                            "_meta": {&#13;
+                                                "_type": "userPreferences",&#13;
+                                                "_path": "userPrefName",&#13;
+                                                "_value": {&#13;
+                                                    "userPrefName": "workspace.showAgentAssist"&#13;
+                                                },&#13;
+                                                "_default": {&#13;
+                                                    "userPrefName": "true"&#13;
+                                                }&#13;
+                                            }&#13;
+                                        }&#13;
+                                    },&#13;
+                                    {&#13;
+                                        "label": {&#13;
+                                            "message": "Wrap list text",&#13;
+                                            "translatable": true&#13;
+                                        },&#13;
+                                        "type": "toggle",&#13;
+                                        "value": {&#13;
+                                            "_meta": {&#13;
+                                                "_type": "userPreferences",&#13;
+                                                "_path": "userPrefName",&#13;
+                                                "_value": {&#13;
+                                                    "userPrefName": "workspace.wrapListText"&#13;
+                                                },&#13;
+                                                "_default": {&#13;
+                                                    "userPrefName": "true"&#13;
+                                                }&#13;
+                                            }&#13;
+                                        }&#13;
+                                    },&#13;
+                                    {&#13;
+                                        "label": {&#13;
+                                            "message": "Notifications",&#13;
+                                            "translatable": true&#13;
+                                        },&#13;
+                                        "type": "divider"&#13;
+                                    },&#13;
+                                    {&#13;
+                                        "label": {&#13;
+                                            "message": "Show Banners",&#13;
+                                            "translatable": true&#13;
+                                        },&#13;
+                                        "type": "toggle",&#13;
+                                        "value": {&#13;
+                                            "_meta": {&#13;
+                                                "_type": "userPreferences",&#13;
+                                                "_path": "userPrefName",&#13;
+                                                "_value": {&#13;
+                                                    "userPrefName": "workspace.notifications.showPopups"&#13;
+                                                },&#13;
+                                                "_default": {&#13;
+                                                    "userPrefName": "true"&#13;
+                                                }&#13;
+                                            }&#13;
+                                        }&#13;
+                                    },&#13;
+                                    {&#13;
+                                        "label": {&#13;
+                                            "message": "Show Badge Count",&#13;
+                                            "translatable": true&#13;
+                                        },&#13;
+                                        "type": "toggle",&#13;
+                                        "value": {&#13;
+                                            "_meta": {&#13;
+                                                "_type": "userPreferences",&#13;
+                                                "_path": "userPrefName",&#13;
+                                                "_value": {&#13;
+                                                    "userPrefName": "workspace.notifications.showBadgeCount"&#13;
+                                                },&#13;
+                                                "_default": {&#13;
+                                                    "userPrefName": "true"&#13;
+                                                }&#13;
+                                            }&#13;
+                                        }&#13;
+                                    }&#13;
+                                ]&#13;
+                            }&#13;
+                        }&#13;
+                    ]&#13;
+                }&#13;
+            }],&#13;
+            "secondaryItems": [&#13;
+&#13;
+            ]&#13;
+        }&#13;
+    },&#13;
+    "publicPage": {&#13;
+        "actionButtons": [&#13;
+&#13;
+        ]&#13;
+    }&#13;
+}</value></sys_ux_page_property><sys_translated_text action="delete_multiple" query="documentkey=df382b662e83411095f17a1202ba481a"/></record_update>]]></payload>
+        <payload_hash>-1093327812</payload_hash>
+        <record_name>chrome_header</record_name>
+        <reverted_from/>
+        <source>0685afa21b834110599142e4cc4bcb34</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-27 10:11:01</sys_created_on>
+        <sys_id>b4486b661b834110599142e4cc4bcb11</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1806a80b54d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-27 10:11:01</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>fc486b66ce834110f0e3327874e04f10</update_guid>
+        <update_guid_history>fc486b66ce834110f0e3327874e04f10:-1093327812,b8486b66eb834110dac2239cfd14ec0f:760954281</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-27 10:14:08</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>1f972cb1e4dc4d2d89192af27bdb4b31</sys_id>
+        <sys_metadata>df382b662e83411095f17a1202ba481a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="Parental Leave" source="x_485912_parenta_0">259da3921b430110599142e4cc4bcbae</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Parental Leave">259da3921b430110599142e4cc4bcbae</sys_scope>
+        <sys_scope_delete display_value="">078cc6575a4a49b88084c328e0ed8490</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_df382b662e83411095f17a1202ba481a</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_df382b662e83411095f17a1202ba481a">b4486b661b834110599142e4cc4bcb11</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-27 10:14:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

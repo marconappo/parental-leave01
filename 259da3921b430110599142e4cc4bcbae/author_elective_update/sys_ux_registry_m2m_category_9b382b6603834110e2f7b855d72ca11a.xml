@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_registry_m2m_category">
+    <sys_ux_registry_m2m_category action="DELETE">
+        <experience_category display_value="Workspace">afb4e3e173322010f0ca1e666bf6a726</experience_category>
+        <page_registry display_value="">97382b66a6834110f06b1745539d7b1d</page_registry>
+        <sys_class_name>sys_ux_registry_m2m_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-27 10:10:56</sys_created_on>
+        <sys_id>9b382b6603834110e2f7b855d72ca11a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Parental Leave" source="x_485912_parenta_0">259da3921b430110599142e4cc4bcbae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parental Leave">259da3921b430110599142e4cc4bcbae</sys_scope>
+        <sys_update_name>sys_ux_registry_m2m_category_9b382b6603834110e2f7b855d72ca11a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-27 10:10:56</sys_updated_on>
+    </sys_ux_registry_m2m_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Parental Leave">259da3921b430110599142e4cc4bcbae</application>
+        <file_path/>
+        <instance_id>3c2a0119dbd753404f035d00cf9619ac</instance_id>
+        <instance_name>dev64591</instance_name>
+        <name>sys_ux_registry_m2m_category_9b382b6603834110e2f7b855d72ca11a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_registry_m2m_category"><sys_ux_registry_m2m_category action="INSERT_OR_UPDATE"><experience_category display_value="Workspace">afb4e3e173322010f0ca1e666bf6a726</experience_category><page_registry display_value="">97382b66a6834110f06b1745539d7b1d</page_registry><sys_class_name>sys_ux_registry_m2m_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-27 10:10:56</sys_created_on><sys_id>9b382b6603834110e2f7b855d72ca11a</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Parental Leave" source="x_485912_parenta_0">259da3921b430110599142e4cc4bcbae</sys_package><sys_policy/><sys_scope display_value="Parental Leave">259da3921b430110599142e4cc4bcbae</sys_scope><sys_update_name>sys_ux_registry_m2m_category_9b382b6603834110e2f7b855d72ca11a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-27 10:10:56</sys_updated_on></sys_ux_registry_m2m_category></record_update>]]></payload>
+        <payload_hash>261472792</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>51416fae1b434110599142e4cc4bcbb5</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2022-04-27 09:40:28</sys_created_on>
+        <sys_id>d6f8a7a61b834110599142e4cc4bcb7e</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>1806a64bae00000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Application Category M2M</type>
+        <update_guid>96f8a7a6ee834110896d47b616b49f7e</update_guid>
+        <update_guid_history>96f8a7a6ee834110896d47b616b49f7e:261472792</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-27 10:14:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_registry_m2m_category">sys_ux_registry_m2m_category</sys_db_object>
+        <sys_id>24d924a3958148dc974e37ce54313810</sys_id>
+        <sys_metadata>9b382b6603834110e2f7b855d72ca11a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Parental Leave" source="x_485912_parenta_0">259da3921b430110599142e4cc4bcbae</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Parental Leave">259da3921b430110599142e4cc4bcbae</sys_scope>
+        <sys_scope_delete display_value="">078cc6575a4a49b88084c328e0ed8490</sys_scope_delete>
+        <sys_update_name>sys_ux_registry_m2m_category_9b382b6603834110e2f7b855d72ca11a</sys_update_name>
+        <sys_update_version display_value="sys_ux_registry_m2m_category_9b382b6603834110e2f7b855d72ca11a">d6f8a7a61b834110599142e4cc4bcb7e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-27 10:14:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

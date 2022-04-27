@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-27 10:11:01</sys_created_on>
+        <sys_id>34482b661b834110599142e4cc4bcbff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x.485912.parental-leave.*.sn_hr_core.case_reader</sys_name>
+        <sys_package display_value="Parental Leave" source="x_485912_parenta_0">259da3921b430110599142e4cc4bcbae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parental Leave">259da3921b430110599142e4cc4bcbae</sys_scope>
+        <sys_security_acl display_value="x.485912.parental-leave.*">13382b66938341105eb94cb4f32a111d</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_34482b661b834110599142e4cc4bcbff</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-27 10:11:01</sys_updated_on>
+        <sys_user_role display_value="sn_hr_core.case_reader" name="sn_hr_core.case_reader">f65370019f22120047a2d126c42e705d</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

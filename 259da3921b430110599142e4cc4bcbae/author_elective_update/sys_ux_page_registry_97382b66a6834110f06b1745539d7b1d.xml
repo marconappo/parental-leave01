@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry">
+    <sys_ux_page_registry action="DELETE">
+        <active>true</active>
+        <admin_panel>57382b66358341109bceefb6ad7e3a1d</admin_panel>
+        <admin_panel_table>sys_ux_app_config</admin_panel_table>
+        <auth_routes/>
+        <page/>
+        <parent_app display_value="Unified Navigation app shell">c86a62e2c7022010099a308dc7c26022</parent_app>
+        <path>parental-leave</path>
+        <root_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</root_macroponent>
+        <sys_class_name>sys_ux_page_registry</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-27 10:10:56</sys_created_on>
+        <sys_id>97382b66a6834110f06b1745539d7b1d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Parental Leave</sys_name>
+        <sys_package display_value="Parental Leave" source="x_485912_parenta_0">259da3921b430110599142e4cc4bcbae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parental Leave">259da3921b430110599142e4cc4bcbae</sys_scope>
+        <sys_update_name>sys_ux_page_registry_97382b66a6834110f06b1745539d7b1d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-27 10:10:56</sys_updated_on>
+        <title>Parental Leave</title>
+    </sys_ux_page_registry>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Parental Leave">259da3921b430110599142e4cc4bcbae</application>
+        <file_path/>
+        <instance_id>3c2a0119dbd753404f035d00cf9619ac</instance_id>
+        <instance_name>dev64591</instance_name>
+        <name>sys_ux_page_registry_97382b66a6834110f06b1745539d7b1d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry"><sys_ux_page_registry action="INSERT_OR_UPDATE"><active>true</active><admin_panel>57382b66358341109bceefb6ad7e3a1d</admin_panel><admin_panel_table>sys_ux_app_config</admin_panel_table><auth_routes/><page/><parent_app display_value="Unified Navigation app shell">c86a62e2c7022010099a308dc7c26022</parent_app><path>parental-leave</path><root_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</root_macroponent><sys_class_name>sys_ux_page_registry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-27 10:10:56</sys_created_on><sys_id>97382b66a6834110f06b1745539d7b1d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Parental Leave</sys_name><sys_package display_value="Parental Leave" source="x_485912_parenta_0">259da3921b430110599142e4cc4bcbae</sys_package><sys_policy/><sys_scope display_value="Parental Leave">259da3921b430110599142e4cc4bcbae</sys_scope><sys_update_name>sys_ux_page_registry_97382b66a6834110f06b1745539d7b1d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-27 10:10:56</sys_updated_on><title>Parental Leave</title></sys_ux_page_registry></record_update>]]></payload>
+        <payload_hash>-1079751681</payload_hash>
+        <record_name>Parental Leave</record_name>
+        <reverted_from/>
+        <source>51416fae1b434110599142e4cc4bcbb5</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2022-04-27 09:40:28</sys_created_on>
+        <sys_id>daf8a7a61b834110599142e4cc4bcb78</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>1806a64bae00000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Application</type>
+        <update_guid>9af8a7a670834110f54fb2fa3e531978</update_guid>
+        <update_guid_history>9af8a7a670834110f54fb2fa3e531978:-1079751681</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-27 10:14:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_registry">sys_ux_page_registry</sys_db_object>
+        <sys_id>2ec5527531ea4e08b36f783aacbf1410</sys_id>
+        <sys_metadata>97382b66a6834110f06b1745539d7b1d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Parental Leave</sys_name>
+        <sys_package display_value="Parental Leave" source="x_485912_parenta_0">259da3921b430110599142e4cc4bcbae</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Parental Leave">259da3921b430110599142e4cc4bcbae</sys_scope>
+        <sys_scope_delete display_value="">078cc6575a4a49b88084c328e0ed8490</sys_scope_delete>
+        <sys_update_name>sys_ux_page_registry_97382b66a6834110f06b1745539d7b1d</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_registry_97382b66a6834110f06b1745539d7b1d">daf8a7a61b834110599142e4cc4bcb78</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-27 10:14:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
