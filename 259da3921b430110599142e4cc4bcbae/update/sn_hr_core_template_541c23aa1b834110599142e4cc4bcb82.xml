@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_hr_core_template">
+    <sn_hr_core_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <assign_to>subject_person</assign_to>
+        <assignment_option/>
+        <assignment_type>employee</assignment_type>
+        <date_offset_quantity>14</date_offset_quantity>
+        <date_offset_type>after</date_offset_type>
+        <date_offset_units>days</date_offset_units>
+        <description_for_employee/>
+        <due_date_source/>
+        <global>true</global>
+        <group/>
+        <groups/>
+        <link_element/>
+        <name>Parental Leave Illness</name>
+        <next/>
+        <next_child/>
+        <owning_group display_value="HR Activity Writers" name="HR Activity Writers">bf0b2a70e7723200c1dc8a63c2f6a93e</owning_group>
+        <parent_case_table>sn_hr_core_case</parent_case_table>
+        <roles/>
+        <short_description/>
+        <short_description_for_employee/>
+        <show_on_template_bar>true</show_on_template_bar>
+        <show_translated_fields>false</show_translated_fields>
+        <stand_alone>false</stand_alone>
+        <sys_class_name>sn_hr_core_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-27 10:28:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>541c23aa1b834110599142e4cc4bcb82</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Parental Leave Illness</sys_name>
+        <sys_package display_value="Parental Leave" source="x_485912_parenta_0">259da3921b430110599142e4cc4bcbae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parental Leave">259da3921b430110599142e4cc4bcbae</sys_scope>
+        <sys_update_name>sn_hr_core_template_541c23aa1b834110599142e4cc4bcb82</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-27 10:29:32</sys_updated_on>
+        <table>sn_hr_core_task</table>
+        <template>short_description=Upload your illness certificate here^optional=true^hr_task_type=upload_documents^state=10^set_reminder=true^when_to_send=3^interval=2^email_template=037f9369c3733200b599b4ad81d3aebc^task_support_team=users_and_groups^parent_case_users=6ac478f5e7400300d3dd8a63c2f6a956^EQ</template>
+        <template_reference/>
+        <template_reference_field/>
+        <use_assignment_date>true</use_assignment_date>
+        <user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</user>
+        <view/>
+    </sn_hr_core_template>
+</record_update>

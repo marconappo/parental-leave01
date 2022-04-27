@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="DELETE">
+        <active>true</active>
+        <answer>HR Parental Leave Case</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>HR Parental Leave Case</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">55464cb521120110a866589604c20d56</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-27 07:59:06</sys_created_on>
+        <sys_id>241a0be61b034110599142e4cc4bcbdc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HR Parental Leave Case</sys_name>
+        <sys_package display_value="Parental Leave" source="x_485912_parenta_0">259da3921b430110599142e4cc4bcbae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parental Leave">259da3921b430110599142e4cc4bcbae</sys_scope>
+        <sys_update_name>sys_wizard_answer_241a0be61b034110599142e4cc4bcbdc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-27 07:59:06</sys_updated_on>
+        <table/>
+        <target_url>x_485912_parenta_0_hr_parental_leave_case.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Parental Leave">259da3921b430110599142e4cc4bcbae</application>
+        <file_path/>
+        <instance_id>3c2a0119dbd753404f035d00cf9619ac</instance_id>
+        <instance_name>dev64591</instance_name>
+        <name>sys_wizard_answer_241a0be61b034110599142e4cc4bcbdc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer"><sys_wizard_answer action="INSERT_OR_UPDATE"><active>true</active><answer>HR Parental Leave Case</answer><button_label/><dependent_value/><element/><name>HR Parental Leave Case</name><next_question/><order>100</order><payload_name/><question display_value="Task" name="Task">55464cb521120110a866589604c20d56</question><roles/><script/><sys_class_name>sys_wizard_answer</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-27 07:59:06</sys_created_on><sys_id>241a0be61b034110599142e4cc4bcbdc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>HR Parental Leave Case</sys_name><sys_package display_value="Parental Leave" source="x_485912_parenta_0">259da3921b430110599142e4cc4bcbae</sys_package><sys_policy/><sys_scope display_value="Parental Leave">259da3921b430110599142e4cc4bcbae</sys_scope><sys_update_name>sys_wizard_answer_241a0be61b034110599142e4cc4bcbdc</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-27 07:59:06</sys_updated_on><table/><target_url>x_485912_parenta_0_hr_parental_leave_case.do</target_url><type>1</type></sys_wizard_answer></record_update>]]></payload>
+        <payload_hash>2020518249</payload_hash>
+        <record_name>HR Parental Leave Case</record_name>
+        <reverted_from/>
+        <source>51416fae1b434110599142e4cc4bcbb5</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2022-04-27 09:40:28</sys_created_on>
+        <sys_id>1ae9abe61b834110599142e4cc4bcb5a</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>1806a64bae00000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Answer</type>
+        <update_guid>d6e9abe65b8341106d19db147da2d15a</update_guid>
+        <update_guid_history>d6e9abe65b8341106d19db147da2d15a:2020518249</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-27 10:18:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_wizard_answer">sys_wizard_answer</sys_db_object>
+        <sys_id>11fa07ef2c884394aa10969c993b6499</sys_id>
+        <sys_metadata>241a0be61b034110599142e4cc4bcbdc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HR Parental Leave Case</sys_name>
+        <sys_package display_value="Parental Leave" source="x_485912_parenta_0">259da3921b430110599142e4cc4bcbae</sys_package>
+        <sys_parent display_value="Task">55464cb521120110a866589604c20d56</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Parental Leave">259da3921b430110599142e4cc4bcbae</sys_scope>
+        <sys_scope_delete display_value="">078cc6575a4a49b88084c328e0ed8490</sys_scope_delete>
+        <sys_update_name>sys_wizard_answer_241a0be61b034110599142e4cc4bcbdc</sys_update_name>
+        <sys_update_version display_value="sys_wizard_answer_241a0be61b034110599142e4cc4bcbdc">1ae9abe61b834110599142e4cc4bcb5a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-27 10:18:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
