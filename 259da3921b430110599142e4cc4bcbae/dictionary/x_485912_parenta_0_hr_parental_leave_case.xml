@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sn_hr_core_case" label="HR Parental Leave Case" max_length="40" name="x_485912_parenta_0_hr_parental_leave_case" type="collection"/>
+</database>
